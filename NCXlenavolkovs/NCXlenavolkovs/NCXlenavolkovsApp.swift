@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct NCXlenavolkovsApp: App {
+    
+    @StateObject var spotifyManager = SpotifyManager()
+    
+    
+    
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        
     }
 }

@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D095C4C2BBAD3DE0013CF21 /* ItunesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D095C4B2BBAD3DE0013CF21 /* ItunesAPI.swift */; };
 		9D4EB30F2BB3017C0062F704 /* NCXlenavolkovsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EB30E2BB3017C0062F704 /* NCXlenavolkovsApp.swift */; };
 		9D4EB3112BB3017C0062F704 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EB3102BB3017C0062F704 /* ContentView.swift */; };
 		9D4EB3132BB3017E0062F704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EB3122BB3017E0062F704 /* Assets.xcassets */; };
 		9D4EB3162BB3017E0062F704 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4EB3152BB3017E0062F704 /* Preview Assets.xcassets */; };
+		9D4EB31D2BB3116F0062F704 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EB31C2BB3116F0062F704 /* DataModel.swift */; };
+		9D4EB31F2BB481340062F704 /* SpotifyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4EB31E2BB481340062F704 /* SpotifyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D095C4B2BBAD3DE0013CF21 /* ItunesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAPI.swift; sourceTree = "<group>"; };
 		9D4EB30B2BB3017C0062F704 /* NCXlenavolkovs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCXlenavolkovs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4EB30E2BB3017C0062F704 /* NCXlenavolkovsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCXlenavolkovsApp.swift; sourceTree = "<group>"; };
 		9D4EB3102BB3017C0062F704 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D4EB3122BB3017E0062F704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D4EB3152BB3017E0062F704 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D4EB31C2BB3116F0062F704 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		9D4EB31E2BB481340062F704 /* SpotifyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		9D4EB30D2BB3017C0062F704 /* NCXlenavolkovs */ = {
 			isa = PBXGroup;
 			children = (
+				9D4EB31E2BB481340062F704 /* SpotifyData.swift */,
+				9D4EB31C2BB3116F0062F704 /* DataModel.swift */,
 				9D4EB30E2BB3017C0062F704 /* NCXlenavolkovsApp.swift */,
 				9D4EB3102BB3017C0062F704 /* ContentView.swift */,
+				9D095C4B2BBAD3DE0013CF21 /* ItunesAPI.swift */,
 				9D4EB3122BB3017E0062F704 /* Assets.xcassets */,
 				9D4EB3142BB3017E0062F704 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4EB31F2BB481340062F704 /* SpotifyData.swift in Sources */,
 				9D4EB3112BB3017C0062F704 /* ContentView.swift in Sources */,
+				9D095C4C2BBAD3DE0013CF21 /* ItunesAPI.swift in Sources */,
 				9D4EB30F2BB3017C0062F704 /* NCXlenavolkovsApp.swift in Sources */,
+				9D4EB31D2BB3116F0062F704 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
